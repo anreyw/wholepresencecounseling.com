@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whole Presence Counseling</title>
     <style>
       body {
@@ -10,7 +10,9 @@
 	  flex-direction: column;
 	  justify-content: center;
 	  align-items: center;
-	  min-height: 100vh;
+	  min-height: 100dvh;              /* if supported */
+	  min-height: calc(100vh - 10px);  /* fallback for older mobile*/
+	  min-height: 100vh;		   /* default fallback */
 	  margin: 0;
 	  font-family: Georgia, serif;
 	  text-align: center;
