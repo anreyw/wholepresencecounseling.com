@@ -1,2 +1,5 @@
-# ignore all emacs temporary files
+# emacs temporary files
 *~
+
+# macOS directory metadata
+.DS_Store
