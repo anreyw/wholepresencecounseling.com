@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh; /* if supported */
+    min-height: 100vh; /* default fallback */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+img {
+    width: 200px;
+    max-width: 50%;
+    height: auto;
+}
+h1 {
+    margin: 0;
+    padding: 2vh;
+}
+h3 {
+    margin: 0 auto 2em;
+}
+a {
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
