@@ -1,3 +1,7 @@
+* {
+    border: 1px solid black;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,7 +13,9 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
+
 img {
+    margin-top: 20px;
     width: 200px;
     max-width: 50%;
     height: auto;
@@ -19,12 +25,22 @@ h1 {
     padding: 2vh;
 }
 h3 {
-    margin: 0 auto 2em;
+    margin: 0 auto 1em;
 }
+
+p {
+    max-width: 800px;
+    padding: 0 4vh 0;
+}
+
 a {
     margin-top: 10px;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    padding: 50px 2vh 10px; 
 }
