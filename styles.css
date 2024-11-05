@@ -55,3 +55,7 @@ footer {
     padding: 50px 2vh 10px;
     font-size: 0.8em;
 }
+
+span.email b {
+    display: none;
+}
