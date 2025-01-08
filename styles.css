@@ -26,7 +26,6 @@ body {
     height: 100px;
     border-radius: 100%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the container without distortion */
-    border: 2px #444 solid;
 }
 
 
